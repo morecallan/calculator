@@ -1,5 +1,9 @@
 "use strict";
 
-console.log("dangit");
+const MyCalculator = require('./mycalculator');
 
-var x = "darn";
+console.log(MyCalculator.add(1,2));
+console.log(MyCalculator.subtract(40,2));
+console.log(MyCalculator.divide(12,2));
+console.log(MyCalculator.multiply(40,1));
+console.log(MyCalculator.party());
